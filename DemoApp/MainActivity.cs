@@ -7,7 +7,7 @@ using Com.Example.Thineventswrapper;
 using Com.Example.Thineventswrapper.Wrapper.Events.Data;
 using Com.Example.Thineventswrapper.Wrapper.Events;
 //Original Lib
-using Com.Example.Awesomelibrary.Andi.Models;
+using Com.Example.Awesomelibrary.AP.Models;
 
 namespace DemoApp
 {

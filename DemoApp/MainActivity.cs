@@ -36,7 +36,7 @@ namespace DemoApp
 
 			//Register to events from the Wrapper Lib
 			regHandler = pv.AsEventDispatcherWrapper().AddEventListener(this);
-
+			var mv = new MediaLoadEventWrapper(null);
 			//Read settings from the Original Lib
 			PlayerSettings settings = pv.AsSettings();
 			if (settings.Protection == DRMProtection.PlayReady) {
